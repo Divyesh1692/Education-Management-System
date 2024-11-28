@@ -18,7 +18,9 @@ app.use(cookieParser());
 app.use("/user", userRouter);
 app.use("/courses", courseRouter);
 
-app.listen(PORT, () => {
-  console.log("listening on port");
-  dbConnect();
-});
+dbConnect();
+// app.listen(PORT, () => {
+//   console.log("listening on port");
+// });
+
+module.exports = app;

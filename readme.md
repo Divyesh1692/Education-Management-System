@@ -1,6 +1,3 @@
-Here is an example `README.md` file for your project:
-
-```markdown
 # Course Management System
 
 ## Overview
@@ -113,7 +110,7 @@ This project uses the following technologies:
 
 - Tokens are generated upon successful login and are stored in cookies for subsequent requests.
 - The token has a lifespan of **1 day**.
-```
+
 
 ## Environment Variables
 
@@ -151,8 +148,6 @@ This project uses the following technologies:
 
 5. The application will be running on the configured port, usually `http://localhost:5000`.
 
-```
-
 ---
 
 ### Key Sections in the README:
@@ -162,4 +157,4 @@ This project uses the following technologies:
 - **API Endpoints**: Lists the routes along with their HTTP methods and descriptions of their functionality.
 - **Authentication and Role-Based Access**: Describes how users authenticate and the role-based access control implemented.
 - **Installation and Setup**: Provides instructions to set up the project locally.
-```
+
