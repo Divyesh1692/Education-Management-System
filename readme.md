@@ -4,6 +4,10 @@
 
 This is a Course Management System built with Node.js and MongoDB. It provides functionalities for managing users, courses, assignments, quizzes, and grades. The system supports authentication, role-based access control, and dynamic course management features like enrollment, assignment creation, quiz submission, and more.
 
+## Vercel Deployment Url
+
+https://education-management-system-jade.vercel.app/
+
 ## Features
 
 ### User Authentication and Authorization
@@ -111,7 +115,6 @@ This project uses the following technologies:
 - Tokens are generated upon successful login and are stored in cookies for subsequent requests.
 - The token has a lifespan of **1 day**.
 
-
 ## Environment Variables
 
 - **`JWT_SECRET`**: Secret key for signing JWT tokens.
@@ -157,4 +160,3 @@ This project uses the following technologies:
 - **API Endpoints**: Lists the routes along with their HTTP methods and descriptions of their functionality.
 - **Authentication and Role-Based Access**: Describes how users authenticate and the role-based access control implemented.
 - **Installation and Setup**: Provides instructions to set up the project locally.
-
